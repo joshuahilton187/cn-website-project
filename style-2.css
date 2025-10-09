@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+
+
+
+body{
+
+background-color:  #c4beb5;
+color: #280909;
+background-image: url(images/jordan-ryskamp-YopV5Mejv2s-unsplash.jpg) ;
+background-size: 100%;
+background-repeat: no-repeat;
+  font-family: 'Edu NSW ACT Cursive', cursive;
+
+}
+
+.food{
+
+background-image: url(images/tabitha-turner-Ns2aJ5OXKds-unsplash.jpg);
+
+}
+.links{
+display: flex;
+justify-content: space-between;
+background-color: #5a4423 ;
+font-size: 35px;
+font-weight: bold;
+/* border: 2px solid red; */
+
+}
+
+
+.links img{
+    width: 6%;
+    background-color: #FFF2DF;
+}
+.links a{
+color: #FFF2DF;
+/* border: 2px solid red; */
+
+}
+
+.links-end{
+display: flex;
+justify-content: flex-end;
+/* border: 2px solid red;  */
+}
+
+.links-end a{
+/* border: 2px solid red; */
+margin: 5%;
+}
+
+.text-duo{
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 100%;
+text-align: center;
+/* border: 2px solid rgb(132, 0, 255);  */
+margin-top: 2%;
+font-size: 30px;
+color: #FFF2DF;
+}
+
+.text-duo h1{
+/* background-color: #5a4423; */
+text-decoration: underline;
+font-weight: bold;
+
+}
+
+.text-duo p{
+
+font-size: 80%;
+}
+
+.text{
+background-color: #280909;
+    
+}
+
+
+.side-by-side{
+
+display: flex;
+flex-direction: row;
+margin-top: 2%;
+text-align: center;
+
+
+/* border: 2px solid rgb(132, 0, 255); */
+}
+.side-by-side img{
+
+width: 100%;
+
+
+}
+
+.img-text{
+
+width: 100%;
+margin: 3%;
+/* border: 2px solid rgb(255, 0, 0); */
+background-color: #424446;
+margin-bottom: 140px;
+text-decoration: underline #62EEFD;
+color: #FFF2DF;
+}
+
+.img-text h2{
+text-decoration: underline;
+
+}
+
+.img-text h3{
+color: #62EEFD;
+}
+
+.img-text p{
+
+color: #62EEFD;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}

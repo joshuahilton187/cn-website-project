@@ -1,144 +1,156 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
-
-*{
-
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-
-}
-
-body{
-
-background-color:  #c4beb5;
-
-  font-family: 'Edu NSW ACT Cursive', cursive;
+body{background-color: #1c1c1c;
+font-family: "Roboto", sans-serif;
+color: #ffff;
 }
 
 
-
-.links{
+p{
+font-size: 30px;
 display: flex;
-justify-content: space-between;
-background-color: #5a4423 ;
-font-size: 35px;
-font-weight: bold;
+justify-content: center;
+}
+
+#nav{
+ display: flex;   
+ justify-content: center;
+ justify-content: space-around ;
+ background-color: #f5b32f;
+ font-size: 30px;
+/* border: 2px blue solid; */
+}
+
+#nav a{
+ text-decoration: none;
+ color: #1c1c1c;
+margin-top: 30px;
+}
+
+#nav p{
+color: #1c1c1c;
+
+}
+
+
+h1{
+display: flex;
+color: #f5b32f;
+justify-content: center;
+font-size: 100px;
+/* border: 2px solid red */
+  
+ }
+
+.top-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  /* border: 2px solid red;  */
+  
+}
+.top-img img{
+padding-left: 25%;
+width: 50% ;
 /* border: 2px solid red; */
 
 }
 
-.links img{
-    width: 6%;
-    background-color: #FFF2DF;
-}
-.links a{
-color: #FFF2DF;
-
+.top-img p{
+ /* border: 2px solid red; */
+ width: 40%;
+margin-left: 30%;
 }
 
-.links-end{
+.side-by-side-img{
 display: flex;
-justify-content: flex-end;
-/* border: 2px solid red;  */
+justify-content: center;
+ display: flex;
+justify-content: space-around;
+flex-direction: row;
 }
 
-.links-end a{
-/* border: 2px solid red; */
+.side-by-side-img img {
+    /* border: blue solid 2px; */
+    width: 25%;
+}
+
+
+.middle-p{
+    display: flex;
+    justify-content: center;
 margin: 5%;
+width: 50%;
+/* border: rgba(85, 0, 241, 0.288) solid 2px; */
+padding-left: 20%;
+
 }
 
+h2{
+display: flex;
+color: #f5b32f;
+justify-content: center;
+padding: 20px;
+font-size: 80px;
+/* border: 2px solid red; */
+ }
 
 
-.img-bar{
+.collum-text{
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
-/* border: 2px solid red;  */
-color: #280909;
-/* background-color: #424446; */
-font-size: 30px;
+/* border: 2px solid rgb(29, 126, 0) */
 
 }
 
-.img-bar img{
+.collum-text img{
+margin-left: 23%;
+padding: 10px;
 width: 50%;
-margin: 2%;
 }
 
-.img-bar h1{
-    display: flex;
-text-decoration: underline;
-background-color: #280909;
-color: #FFF2DF;
-width: 100%;
+.collum-text p{
+padding-left: 25%;
+/* border: blue solid 2px; */
+width: 50%;
+}
+
+
+.img-text{
+display: flex;
+flex-direction: row-reverse;
 justify-content: center;
-margin: 3%;
+margin-bottom: 10%;
+ }
 
+
+.img-text img{
+
+width: 20% ;
+margin-right: 10%;
+/* border: rgb(255, 6, 214) solid 2px; */
 }
 
-.img-bar p {
-
-
-font-size: 40px;
-
-
-}
-
-
-h2{
-
-margin-top: 2%;
-}
-
-
-
-.img-t{
-   display: flex; 
-   flex-direction: row;
-   align-items: center;
-   width: 100% ;
-   /* background-color: #424446; */
-   /* border: 2px solid red;  */
- background-color: #424446;
-}
-
-.img-t img{
-
-    width: 50%;
-
+.img-text p{
+    width: 40%;
+    padding-right: 15%;
+    /* border: #ec0303 solid 2px; */
 }
 
 
-
-
-h2{
-    display: flex;
-text-decoration: underline;
-background-color: #280909;
-color: #FFF2DF;
-width: 100%;
+.finalimg {
+display: flex;
+flex-direction: row;
 justify-content: center;
+margin: 5%;
+/* border: 2px solid rgb(168, 0, 184); */
 }
 
 
-.text-i{
- display: flex; 
-   flex-direction: row-reverse;
-   align-items: center;
-   width: 100% ;
-   /* background-color: #424446; */
-   /* border: 2px solid red;  */
-   background-color: #5a4423 ;
-
-
- margin: 2%;
-
+.finalimg img{
+    width: 23%;
+margin-left: 15%;    
 }
 
-.text-i p{
-margin-right: 3%;}
-
-
-
-
+.finalimg p{
+margin-right: 15%;
+}
